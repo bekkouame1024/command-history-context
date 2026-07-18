@@ -1,0 +1,97 @@
+# See https://stonecutter.kikugie.dev/wiki/config/properties#centralized-properties
+mod.id = "commandhistorycontext"
+mod.name = "CommandHistoryContext"
+mod.group = "com.bekkouame1024.mod"
+mod.version = "1.0.0"
+
+publish.modrinth = "w5RLuDYc"
+publish.curseforge = "1615107"
+
+deps.fabric_loader = "0.19.3"
+loomx.loom_version = "1.17-SNAPSHOT"
+
+["1.21.11"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.21.11"
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.21.11"]
+mod.mc_title = "1.21.11"
+
+deps.fabric_api = "0.141.5+1.21.11"
+
+["1.21.10"]
+mod.mc_compat = "1.21.10"
+mod.mc_releases = ["1.21.10"]
+mod.mc_title = "1.21.10"
+
+deps.fabric_api = "0.138.4+1.21.10"
+
+["1.21.9"]
+mod.mc_compat = "1.21.9"
+mod.mc_releases = ["1.21.9"]
+mod.mc_title = "1.21.9"
+
+deps.fabric_api = "0.134.1+1.21.9"
+
+["1.21.8"]
+mod.mc_compat = "1.21.8"
+mod.mc_releases = ["1.21.8"]
+mod.mc_title = "1.21.8"
+
+deps.fabric_api = "0.136.1+1.21.8"
+
+["1.21.7"]
+mod.mc_compat = "1.21.7"
+mod.mc_releases = ["1.21.7"]
+mod.mc_title = "1.21.7"
+
+deps.fabric_api = "0.129.0+1.21.7"
+
+["1.21.6"]
+mod.mc_compat = "1.21.6"
+mod.mc_releases = ["1.21.6"]
+mod.mc_title = "1.21.6"
+
+deps.fabric_api = "0.128.2+1.21.6"
+
+["1.21.5"]
+mod.mc_compat = "1.21.5"
+mod.mc_releases = ["1.21.5"]
+mod.mc_title = "1.21.5"
+
+deps.fabric_api = "0.128.2+1.21.5"
+
+["1.21.4"]
+mod.mc_compat = "1.21.4"
+mod.mc_releases = ["1.21.4"]
+mod.mc_title = "1.21.4"
+
+deps.fabric_api = "0.119.4+1.21.4"
+
+["1.21.3"]
+mod.mc_compat = "1.21.3"
+mod.mc_releases = ["1.21.3"]
+mod.mc_title = "1.21.3"
+
+deps.fabric_api = "0.114.1+1.21.3"
+
+["1.21.2"]
+mod.mc_compat = "1.21.2"
+mod.mc_releases = ["1.21.2"]
+mod.mc_title = "1.21.2"
+
+deps.fabric_api = "0.106.1+1.21.2"
+
+["1.21.1"]
+mod.mc_compat = "1.21.1"
+mod.mc_releases = ["1.21.1"]
+mod.mc_title = "1.21.1"
+
+deps.fabric_api = "0.116.14+1.21.1"
+
+["1.21"]
+mod.mc_compat = "1.21"
+mod.mc_releases = ["1.21"]
+mod.mc_title = "1.21"
+
+deps.fabric_api = "0.102.0+1.21"

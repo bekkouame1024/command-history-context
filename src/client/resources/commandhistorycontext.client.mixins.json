@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.bekkouame1024.mod.commandhistorycontext.mixin.client",
+  "compatibilityLevel": "${java}",
+  "client": [
+    "CommandHistoryMixin",
+    "ChatComponentMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

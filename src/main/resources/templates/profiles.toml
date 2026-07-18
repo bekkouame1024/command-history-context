@@ -1,0 +1,9 @@
+vanillaMaxSize = 50
+
+[ExampleProfile]
+maxSize = 100
+serverAddresses = ["server1.example.com", "server2.example.com"]
+
+[ExampleProfile2]
+maxSize = 10
+serverAddresses = ["server3.example.com", "server4.example.com"]

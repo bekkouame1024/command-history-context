@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "A profile-based command history manager for Minecraft.",
+  "authors": [
+    "bekkouame1024"
+  ],
+  "contact": {
+    "sources": "https://github.com/bekkouame1024/command-history-context"
+  },
+  "license": "MIT",
+  "icon": "assets/commandhistorycontext/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.bekkouame1024.mod.commandhistorycontext.CommandHistoryContext"
+    ],
+    "client": [
+      "com.bekkouame1024.mod.commandhistorycontext.CommandHistoryContextClient"
+    ]
+  },
+  "mixins": [
+    "commandhistorycontext.mixins.json",
+    {
+      "config": "commandhistorycontext.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "accessWidener": "commandhistorycontext.ct",
+  "depends": {
+    "fabricloader": ">=0.17",
+    "minecraft": "${minecraft}",
+    "fabric-api": ">=${fabric_api}"
+  }
+}
